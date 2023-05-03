@@ -1,5 +1,5 @@
 {% set name = "aiida-dataframe" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aiida-dataframe-{{ version }}.tar.gz
-  sha256: 00a28d72e2accd3e27e4dbc4b48ab058117a6f02afda4456fc2db6e5b4ae6265
+  sha256: d52dbf945d1de4898b5e85bcad5d68ab393ecee1feff51a7240f70d1e5661c58
 
 build:
   number: 0
